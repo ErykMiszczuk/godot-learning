@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="CharRes" load_steps=2 format=3 uid="uid://cs031byq5vn6j"]
+
+[ext_resource type="Script" path="res://custom_res/char.gd" id="1_wtevw"]
+
+[resource]
+script = ExtResource("1_wtevw")
+alias = "Nameless"

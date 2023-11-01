@@ -1,0 +1,8 @@
+# Godot 4+ specific ignores
+.godot/
+
+# Ignore addons
+addons/*
+
+# But keep custom one (not published on any addons repo)
+!addons/custom_plugin

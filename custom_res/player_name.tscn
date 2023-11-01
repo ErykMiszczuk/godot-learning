@@ -1,0 +1,28 @@
+[gd_scene load_steps=4 format=3 uid="uid://c3buvh7hxpf5w"]
+
+[ext_resource type="Script" path="res://custom_res/PlayerName.gd" id="1_ymev4"]
+[ext_resource type="Resource" uid="uid://cs031byq5vn6j" path="res://custom_res/hero.tres" id="2_skkas"]
+[ext_resource type="Script" path="res://addons/custom_plugin/custom_button.gd" id="3_q6nne"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="PlayerName" type="Label" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+script = ExtResource("1_ymev4")
+res = ExtResource("2_skkas")
+
+[node name="CustomButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 66.0
+offset_top = 42.0
+offset_right = 133.0
+offset_bottom = 70.0
+script = ExtResource("3_q6nne")
